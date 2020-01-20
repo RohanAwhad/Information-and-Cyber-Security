@@ -127,5 +127,5 @@ if __name__ == '__main__':
 	print('Encrypted Message:', ciphertext)
 	
 	plaintext = decrypt(matrix, ciphertext)
-	print('-'*30, 'Encryption', '-'*30)
+	print('-'*30, 'Decryption', '-'*30)
 	print('Decrypted Message:', plaintext)
